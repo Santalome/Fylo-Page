@@ -335,6 +335,185 @@ footer{
     justify-content: space-between;
 }
 
+@media (max-width: 390px){
+
+    .header{
+        margin-top: 20px;
+    }
+
+    .header-list{
+        padding: 0px;
+        width: 60%;
+    }
+
+    .header-list li{
+        font-size: 0.9rem;
+        font-weight: 200;
+    }
+
+    .header img{
+        width: 50%;
+    }
+    
+    .intro-image{
+        width: 100%;
+    }
+
+    .landing-content{
+        width: 80%;
+        min-height: 90vh;
+        margin-top: 50px;
+    }
+
+    .landing-content h2{
+        font-size: 1.8rem;
+    }
+
+    .landing-content p{
+        font-size: 1rem;
+    }
+
+    .landing-content button{
+        padding: 10px 70px;
+    }
+
+    .landing{
+        background-image: url("../images/bg-curvy-mobile.svg");
+        background-size: 100% 60%;
+    }
+
+    .services{
+        padding-top: 100px;
+    }
+
+    .grid{
+        grid-template-columns: 1fr;
+        width: 90%;
+        gap: 70px;
+    }
+
+    #card-3, #card-4{
+        margin-top: 0px;
+    }
+
+    .stay-productive{
+        grid-template-columns: 1fr;
+        width: 80%;
+        gap: 60px;
+    }
+
+    .sp-img{
+        width: 100%;
+    }
+
+    .stay-productive-text h3{
+        font-size: 1.2rem;
+    }
+
+    .stay-productive-text p{
+        font-size: 1rem;
+        font-weight: 300;
+    }
+
+    .sp-link a{
+        font-size: 1rem;
+    }
+
+    .references{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .rf-card{
+        margin: 0px;
+    }
+
+    .reference-img{
+        left: 8%;
+        top: 18%;
+
+    }
+
+    .references{
+        width: 80%;
+    }
+
+    .rf-card{
+        padding: 20px;
+        min-height: 180px;
+    }
+
+    .rf-card p{
+        font-size: 0.9rem;
+        font-weight: 200;
+    }
+
+    .rf-text h3{
+        font-size: 0.8rem;
+    }
+
+    .rf-text p{
+        font-size: 0.6rem;
+    }
+
+    .rf-person{
+        margin-top: 0px;
+    }
+
+    .signup-buttons{
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .signup-flex{
+        width: 85%;
+        padding: 0px;
+        min-height: 350px;
+        padding: 20px;
+    }
+
+    .signup-flex h3{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .signup-flex p{
+        font-size: 0.95rem;
+        width: 90%;
+        font-weight: 200;
+    }
+
+    .signup-buttons{
+        width: 100%;
+    }
+
+    .signup-inputs{
+        width: 100%;
+        padding: 13px 10px;
+    }
+
+    .footer-grid{
+        grid-template-columns: 1fr;
+        justify-items: start;
+        gap: 40px;
+    }
+
+    .social-media{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fab{
+        margin-left: 20px;
+    }
+
+    .list ul, .list2 ul{
+        padding: 0;
+    }
+    
+}
+
 
 
 
