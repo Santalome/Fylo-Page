@@ -335,7 +335,7 @@ footer{
     justify-content: space-between;
 }
 
-@media (max-width: 390px){
+@media (max-width: 480px){
 
     .header{
         margin-top: 20px;
